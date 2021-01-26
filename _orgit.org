@@ -1,0 +1,79 @@
+Hello World!
+
+* The Information Mycele
+how do we revolutionize social media?
+
+I mean really?
+
+Decentrally!
+
+This is the first streaming of my working with
+1. information: notes, texts and
+2. collaborative decentral versioning.
+
+You might want to learn the software I use (recommended).
+All open source!
+- emacs :: the mother of all editors (MOAE, optional!!! powerful!!! Tough cookie though)
+  alternatively any text editor will do...
+  (request tutorials? Notepad++, Atom)
+- orgmode :: is the markup format you see me writing here.
+- git :: decentral versioning and collaborative text editing.
+
+Before we look into the ideas of the mycele, let me explain and show git a bit ;-)
+
+* Git
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-26 Di 12:30]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-20 Mi 12:44]--[2021-01-26 Di 12:30] => 143:46
+:END:
+Standing on the shoulders of giant Linus Torvalds.
+Git is a software that can integrate the collaboration of thousands of authors.
+- with moderation
+- with signatures
+
+Git is well established.
+
+** create a new =git repository=.
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-26 Di 12:33]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-26 Di 12:35]
+CLOCK: [2021-01-26 Di 12:30]--[2021-01-26 Di 12:33] =>  0:03
+:END:
+#+begin_src sh
+git init
+#+end_src
+
+#+results:
+:results:
+Initialized empty Git repository in /home/gregor/dev/julia/OrGitBot/repositories/InformationMycele/.git/
+:end:
+
+what the f*ck happened?
+*** Controling computers with language happened
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-26 Di 12:35]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-26 Di 12:33]--[2021-01-26 Di 12:35] =>  0:02
+:END:
+If you know only Windows, you are used to control you computer with the mouse.
+Eben Moglen (great guy!!): mouse = "the caveman interface: you point and you grunt"
+I think Eben is dishonoring our caveman ancestors - otherwise Eben is spot on!
+mouse = "the infant interface: you point and you grunt!"
+
+Calm down and relax. Controling with text is a journey you are invited to - but it is not a requirement.
+It is my way to work.
+It is a way for many people loving language, and formal languages...
+
+I will record my introductions and tutorials on the information mycele using my software.
+Maybe it will be inspiration to learn emacs, maybe not.
+Emacs is not a requirement!
+(but it allows these fancy things like collapsing headlines ;-))
+*** Requirements for the information mycele
+**** git
+I use Magit (emacs again): not a requirement, but just lovely.
+
