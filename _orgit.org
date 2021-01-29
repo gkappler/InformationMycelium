@@ -118,6 +118,39 @@ What the F*ck happened?
 - We looked at the log of this "commit"
 
 As long as you work on your own that is all you need to know.
-* Next steps:
-- What is information in plain text?
-  Some details on orgmode.
+* =git clone= repositories
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-29 Fr 18:45]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-29 Fr 18:34]--[2021-01-29 Fr 18:45] =>  0:11
+:END:
+There are many ways to publish your content for collaboration.
+Let's first look at something simple for starters, something established and convenient:
+** https://GitHub.com
+:LOGBOOK:
+CLOCK: [2021-01-29 Fr 18:45]
+:END:
+is *the* central place for many git repositories - with a long history (today developed & owned by microsoft).
+Most github repositories are programming - but never mind.
+
+(this is literate shell programming:)
+#+begin_src sh
+git remote add origin git@github.com:gkappler/InformationMycelium.git
+git branch -M main
+git push -u origin main
+#+end_src
+
+#+results:
+:results:
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+:end:
+
+So, it is this easy to publish your text files with emacs.
+Well "publish" on GitHub as a repository, crude and ugly.
+
+We will go further and pretty, I do hope!
+Together, I do hope!
+
+Let me conclude and repeat what we learned --
+and publish the text of this brief tutorial.
