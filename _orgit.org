@@ -128,8 +128,11 @@ CLOCK: [2021-01-29 Fr 18:34]--[2021-01-29 Fr 18:45] =>  0:11
 There are many ways to publish your content for collaboration.
 Let's first look at something simple for starters, something established and convenient:
 ** https://GitHub.com
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-29 Fr 18:56]
+:END:
 :LOGBOOK:
-CLOCK: [2021-01-29 Fr 18:45]
+CLOCK: [2021-01-29 Fr 18:45]--[2021-01-29 Fr 18:56] =>  0:11
 :END:
 is *the* central place for many git repositories - with a long history (today developed & owned by microsoft).
 Most github repositories are programming - but never mind.
@@ -154,3 +157,95 @@ Together, I do hope!
 
 Let me conclude and repeat what we learned --
 and publish the text of this brief tutorial.
+* [[https://orgmode.org][org mode]]
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-29 Fr 19:19]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-29 Fr 19:16]--[2021-01-29 Fr 19:19] =>  0:03
+CLOCK: [2021-01-29 Fr 19:10]--[2021-01-29 Fr 19:12] =>  0:02
+CLOCK: [2021-01-29 Fr 18:56]--[2021-01-29 Fr 19:06] =>  0:10
+:END:
+your life in plain text.
+
+I started using org in about 2009.
+I never left again.
+Wrote
+- my private notes & plans
+- scientific papers
+- slides
+- mails
+
+I got addicted, and needed to learn how to consciously forget.
+Now I hope I can share my love.
+
+Org changed my writing.
+It helped me focus.
+** Org influenced my view on texts as a forest:
+*** org started as a better outline mode by [[http://google.at/?q=Carsten Dominik&hl=en&as_vis=1&as_sdt=2001&as_sdtp=on][Carsten Dominik]].
+And so it is no surprise org is powerful for mathematics, and programming and science.
+
+*** outline means sub-headlines
+*** A file forms a tree of sections/headlines
+*** A forest consists of many trees
+and all the life that lives on and between those trees.
+
+** Org allows to markup and format
+:PROPERTIES:
+:CLOCK_LAST: [2021-01-29 Fr 19:16]
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-29 Fr 19:12]--[2021-01-29 Fr 19:16] =>  0:04
+CLOCK: [2021-01-29 Fr 19:06]--[2021-01-29 Fr 19:10] =>  0:04
+:END:
+/italics/, *bold*, =code=
+# comments (not printed when published)
+: # escapes as a code line (printed when published)
+
+Of course
+1. lists
+2. with enumations
+3. and sublists
+   - too
+   - with just dashes
+
+You really can write nearly everything in org.
+But you will need emacs for a full experience.
+
+** TODO lists
+can mark what needs doing.
+*** DONE And record what has been done.
+*** TODO [#A] with prio
+*** TODO with a date
+SCHEDULED: <2021-01-29 Fr>
+*** TODO with a deadline
+DEADLINE: <2021-01-29 Fr>
+** org forest
+:LOGBOOK:
+CLOCK: [2021-01-29 Fr 19:19]
+:END:
+With org and git, a huge forest of texts is formally defined.
+This forest is shared between us, and can be used for organizing basically anything as a group.
+
+It is all text, right?
+It is all sequences of symbols.
+
+Text can be collaboratively written with =git=.
+And shared on github.
+
+*** by path
+: <git repository url>/<folder path...>/<file name>/<* headline tree...>
+Such a path can be found (if it exists).
+[[id:9fc8f4c5-8543-40aa-bdbf-5b00f14b7fac][by org link id]]
+
+: git@github.com:gkappler/InformationMycelium.git:/_orgit.org/[[https://orgmode.org][org mode]]/org forest/by path
+
+Formally ok, but obviously fragile.
+*** by org link id
+:PROPERTIES:
+:ID:       9fc8f4c5-8543-40aa-bdbf-5b00f14b7fac
+:END:
+: git@github.com:gkappler/InformationMycelium.git:/id:9fc8f4c5-8543-40aa-bdbf-5b00f14b7fac
+will reference the location even when the outline position moved.
+
+Formally ok, and sometimes also fragile (duplicates).
