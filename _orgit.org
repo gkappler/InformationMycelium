@@ -462,8 +462,52 @@ e.g. a full name from different formats.
 Please see the JuliaCon talk
 https://www.youtube.com/watch?v=YBMJSKwwCT0
 
+* What's Mycelium (in =radicle git=)?
+** Symbiosis and Death
+Fungi transport molecules
+through a network of hyphae.
+This hyphae network is called mycelium,
+ever changing and
+building up to where
+there is something;
+and letting go from starvation
+where there is nothing.
 
-* Requirements for the Information Mycelium
+The mycelium breaks down into nutrients
+the dead for assisting new live,
+connecting the living with the dead
+in a forest's ecosystem.
+
+The mycelium contributes 
+essential symbiotic functions:
+transcending the boundaries
+between death and life,
+between individuals,
+and even between species.
+
+** Biomimicri
+is technology inspired by
+natural designs.
+
+I wonder what the mycelium can teach us
+to make our future grow
+out of decaying death,
+and past corrupting.
+
+Without a central plan
+a mycelium tends to converge
+to an optimal structure,
+with mathematic precision.
+
+I marvel at these natural facts!
+Can't we profit from the mycelium's principles:
+- local decisions - no central planning
+- decentral organization - neighborship coordination
+
+I conject that in computer networks
+the versioning software =git= provides
+great technical mechanics:
+
 ** Git
 :PROPERTIES:
 :CLOCK_LAST: [2021-01-26 Di 12:30]
@@ -471,14 +515,17 @@ https://www.youtube.com/watch?v=YBMJSKwwCT0
 :LOGBOOK:
 CLOCK: [2021-01-20 Mi 12:44]--[2021-01-26 Di 12:30] => 143:46
 :END:
-Standing on the shoulders of giant Linus Torvalds.
-Git is a software that can integrate the collaboration of thousands of authors.
-- with moderation
-- with signatures
+Git is a software that can integrate collaborative writing
+by thousands of authors.
+- cryptographic signing off (claim authorship)
+- moderation
+- flexible team workflows
 
-Git is well established.
+Git is well established:
+Stand on the shoulders of Linus Torvalds,
+the giant.
 
-*** =git init= to create a new repository
+*** =git init= creates new repositories
 :PROPERTIES:
 :CLOCK_LAST: [2021-01-26 Di 12:38]
 :END:
@@ -486,36 +533,42 @@ Git is well established.
 CLOCK: [2021-01-26 Di 12:35]--[2021-01-26 Di 12:38] =>  0:03
 CLOCK: [2021-01-26 Di 12:30]--[2021-01-26 Di 12:33] =>  0:03
 :END:
+Let's start fresh
+in Linux, 
 #+begin_src sh
+rm -rf demo-repository
+mkdir demo-repository
+#+end_src
+
+#+results:
+:results:
+:end:
+
+
+You can convert any existing folder
+into a git repository:
+#+begin_src sh
+cd demo-repository
 git init
 #+end_src
 
 #+results:
 :results:
-Initialized empty Git repository in /home/gregor/dev/julia/OrGitBot/repositories/InformationMycelium/.git/
+Initialized empty Git repository in /home/gregor/dev/julia/OrGitBot/repositories/InformationMycele/demo-repository/.git/
 :end:
 
-what the f*ck happened?
-**** Controling computers with language happened
-:PROPERTIES:
-:CLOCK_LAST: [2021-01-26 Di 12:35]
-:END:
-:LOGBOOK:
-CLOCK: [2021-01-26 Di 12:33]--[2021-01-26 Di 12:35] =>  0:02
-:END:
-If you know only Windows, you are used to control you computer with the mouse.
-Eben Moglen (great guy!!): mouse = "the caveman interface: you point and you grunt"
-I think Eben is dishonoring our caveman ancestors - otherwise Eben is spot on!
-mouse = "the infant interface: you point and you grunt!"
 
-Calm down and relax. Controling with text is a journey you are invited to - but it is not a requirement.
-It is my way to work.
-It is a way for many people loving language, and formal languages...
+Suppose some text file
+[[file:./demo-repository/info.org]]
+in orgmode markup format:
+#+begin_src sh
+echo "* DONE some demo notes\n(for git)" > demo-repository/info.org
+#+end_src
 
-I will record my introductions and tutorials on the information mycelium using my software.
-Maybe it will be inspiration to learn emacs, maybe not.
-Emacs is not a requirement!
-(but it allows these fancy things like collapsing headlines ;-))
+#+results:
+:results:
+:end:
+You can then
 *** =git add= and =git commit=
 :PROPERTIES:
 :CLOCK_LAST: [2021-01-28 Do 23:48]
@@ -523,20 +576,97 @@ Emacs is not a requirement!
 :LOGBOOK:
 CLOCK: [2021-01-26 Di 12:38]--[2021-01-28 Do 23:48] => 59:10
 :END:
-I use Magit (emacs again): not a requirement, but just lovely.
+files and subfolders.
 
-What the F*ck happened?
-- we staged changes (this file and the =.gitignore= file for ignoring emacs backup files)
+Let's register the first version
+of the file in your folder!
+That task is broken up into two basic operations,
+- add :: so you can refine,
+  select and group changes together, and
+- commit :: so you can comment on a set of changes.
+
+I use Magit (emacs again): not a requirement.
+
+=M-x magit-status= 
+
+There are unstaged changes:
+- I mark some changes and =M-x =magit-stage=.
   Staging files can be done without magit in the terminal:
   #+begin_src sh
-  git add _orgit.org
+  git add info.org
   #+end_src
-- we committed changes with a comment (an initial version)
-  In the terminal:
+- =M-x magit-commit= staged changes and write a comment.
+  Commiting can be done in the terminal too:
   #+begin_src sh
   git commit -m "a note describing the changes"
   #+end_src
-- We looked at the log of this "commit"
+- We look at the log of this repository with =M-x magit-log= and selecting a simple log format.
+
+Let me repeat:
+1. Change the =info.org= file.
+2. M-x magit-status
+3. New content is shown in green.
+4. stage change
+5. magit-commit with a comment
+
+As long as you version your work
+on your own that is all you need to know.
+*** One branch begins a network.
+Git is a big topic,
+worth learning in depth.
+Only the surface is =init=, =add=, and =commit=.
+
+These are the first steps into an intricate network
+of files, changes, folder states and repositories.
+
+Let's recapitulate the demo folder.
+We went from 
+initial empty state
+    \rightarrow
+first commit with 1 =info.org= file
+(and made a second commit).
+
+All commit changes all text changes are *transitions*
+from the original folder state
+to a changed state.
+
+Git manages these transitions
+beautifully in a huge graph of states -
+ever expanding.
+
+When multiple authors write on the same text,
+versions diverge.
+Git can even *automatically merge*
+diverging file edits
+(if they are not conflicting at the same lines).
+Only merging with conflict
+demands your attention and choice.
+
+Further videos will
+tutor you through other git features.
+
+Wonderful things have evolved in the community from
+the Linus Torvald's git plumbing
+of blobs, trees, commits,
+files and versions and branches.
+
+Issue discussions, pull requests,
+and much more,
+all programmers required.
+(e.g. on GitHub)
+
+I am excited about
+*** =radicle=
+leveraging git to peer-to-peer gossip,
+with functionality like GitHub,
+and working on enabling git
+for an *ethereum* economy.
+
+Is this hope controversial?
+These years of isolation
+invite us to participate in
+decentral independent connection
+with exciting and existing empowering ideas.
 
 As long as you work on your own that is all you need to know.
 * =git clone= repositories
