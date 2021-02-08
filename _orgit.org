@@ -369,8 +369,99 @@ Maybe it will be inspiration to learn emacs,
   - maybe not.
 Emacs is not a requirement!
 (but it allows these fancy things like collapsing headlines ;-))
+* FERTIG What's Information?
+Another deep scientific & philosophical question!
+Let's make it specific and practical.
+** [[https://orgmode.org][org mode]] (the text markup you see)
+your life in plain text.
 
-Before we look into the ideas of the mycelium, let me explain and show git a bit ;-)
+I started using org in about 2009.
+I never left.
+Wrote
+- my private notes & plans
+- scientific papers
+- slides
+- mails
+
+I got addicted, and needed to learn how to consciously forget.
+Now I hope I hope I can share my love within orgmode.
+
+Org changed my writing.
+It helped me focus.
+*** org started as a better outline mode by [[https://staff.fnwi.uva.nl/c.dominik/][Carsten Dominik]].
+And so it is no surprise org is powerful for mathematics, and programming and science.
+
+**** outline means sub-headlines
+*** Org anize anything
+You really can write nearly everything in org.
+But you will need emacs for a full experience.
+
+**** Markup 
+/italics/, *bold*, =code=
+# comments (not printed when published)
+: # escapes as a code line (printed when published)
+
+And of course there is much more.
+Read up on the manual.
+**** Structure
+Of course
+1. lists
+2. with enumations
+3. and sublists
+   - too
+   - with just dashes
+     
+**** TODO Lists
+can mark what needs doing.
+***** DONE record what has been done.
+***** TODO [#A] denote priorities
+***** TODO with a date
+SCHEDULED: <2021-01-29 Fr>
+***** TODO with a deadline
+DEADLINE: <2021-01-29 Fr>
+
+*** Org influenced my view on texts as a forest:
+**** A file forms a tree of sections/headlines
+**** A forest consists of many trees
+and all the life that lives on and between those trees.
+Like todos like prioritized todos, or notes, person entries or any other type...
+**** Defining
+With org and git, a huge forest of texts is formally defined.
+This forest is shared between us, and can be used for organizing basically anything as groups.
+
+It is all text, right?
+It is all sequences of symbols.
+
+Text can be collaboratively written with =git=.
+And shared on github.
+
+All these sequences of symbols are entries in the
+library of babel!
+** [#C] What's a Type of information (in =julia=)?
+Applied category theory.
+You can formally add any information *type*
+into the information mycele.
+Just provide a julia program for reading files.
+
+This text is a sequence of symbols,
+actually this =text::String= in a unicode character alphabet.
+(unicode is all characters of all languages.)
+
+Useful data is structured like the =NamedTuple= class of types,
+e.g. a full name with properties lastname firstnames each of type String.
+
+Yes, this definition is broad, all-encompassing.
+The org headline you see here is parsed as types:
+=OrgEntry= in a =GiTree=.
+
+
+With the CombinedParsers.jl julia package,
+you can define practically a fast parser program fastly.
+A parser is defining how to read something
+e.g. a full name from different formats.
+Please see the JuliaCon talk
+https://www.youtube.com/watch?v=YBMJSKwwCT0
+
 
 * Requirements for the Information Mycelium
 ** Git
