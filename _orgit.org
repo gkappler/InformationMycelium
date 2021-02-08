@@ -1,14 +1,250 @@
-Hello World!
+#+TITLE: FilingForest
+Do you worry how current media and
+trust in information will desolve?
+Do these questions keep you up at night,
+like me?
 
-* The Information Mycelium
+After the age of information?
+Will come a golden age?
+Of growth?
+
+What is the terrain for digital growth?
+
+* I am Dr. Gregor Kappler and
+offer you my professional perspective on the
+current digital disruptions:
+For decades I observed as a data scientist
+the building of index systems
+for agencies and corporations.
+For decades I studied neural networks and
+understood measurement is mathematic bundling,
+centrally factoring.
+For decades I researched how to formalize
+decentralized understanding of data.
+
+What is the
+* FERTIG State of the Digital Ecosystem
 :PROPERTIES:
 :CLOCK_LAST: [2021-01-29 Fr 00:31]
 :END:
 :LOGBOOK:
+:END:
+** Social Media
+has produced great social dumbness.
+
+** Artificial Intelligence
+is taken over social affairs.
+
+** Why?
+*** Social Media controls processes
+- standards for data exchange,
+- legal frameworks for intellectual property,
+- expert fact checking for weeding out "disinformation"
+  
+*** Artificial Intelligence controls capacity
+- big training data storage
+- big models cluster computation
+- mathematical understanding
+
+*** Control and regulation are centralized!
+* FERTIG Today \rightarrow Utopia?
+Hero of life,
+*next steps*
+define your path.
+
+** to your sustainable equity?
+1. stare at 📰 news in fear
+2. feed social media your thoughts
+3. trust the experts
+4. consume your equity
+
+*** What is the information flow?
+*Messages and behavior* flow from we the people
+through Telcos and Media
+to Corporations and various agencies.
+
+In turn we the people get delivered *trusted information.*
+
+We see distrust between neighbors and privacy laws protecting us from each other's stalking.
+
+Information flow defines perception
+and thus the trust in experts and in science.
+
+The center is towering seeing and explaining all.
+
+**** How much is society a machine?
+With people as input,
+and policy as output?
+
+Computing control from biggest data,
+with predictive processings,
+most expensive.
+
+
+*** Are you destined to be 
+**** *informed* by the best?
+by worrying news,
+feel stress induced.
+Sickening fear porn.
+
+See illness, feel repulsion,
+your human relations disintegrate.
+Burn in your anger
+feel the hot blames
+that explode between groups.
+**** *entertained* by the best?
+in super-hero phantasy
+co-loving idols
+in drama, thriller and porn?
+
+**** *observed* through social media?
+Confess your personal expression.
+You whisper into the unknown,
+this screen is the black hole.
+This strong gravitational center.
+See humanity falling besides you,
+whispering into screens.
+Blind to resonance.
+Illuminating ourselved -- to the machine.
+To strange judgement, collective shit-storms, banning, and censorship.
+
+Social media observes
+minds blown.
+**** *lead* by the best?
+You can follow the science.
+You can trust in esteemed experts.
+Experts have benevolent intentions,
+designing the great rescue.
+
+The experts protect you
+from crazies, lies and
+malevolent conspiracy theorists.
+
+**** *measured* by experts?
+Consume sustainably
+and be fairly integrated
+into a technocratic society.
+You will evolve
+into a just world,
+"you will own nothing
+and you will be happy."
+
+The great reset is 
+the social nirvana!
+Finally be consumed.
+Vaccines are love!
+
+A question:
+What is the measure
+of a human soul?
+In resource it's finite.
+** to your freedom in peace?
+I teach myself:
+1. Don't stare at 📰 news in fear!
+   *Sit still* and appreciate pieces of art in peace!
+2. Don't feed social media your thoughts!
+   *Express* your thoughts!
+3. Don't trust the experts!
+   *Discern* your mistaken thinking!
+4. Don't consume your equity!
+   *Share your gifts* finding balance!
+
+*** I rather deny that passive destiny above and instead actively
+**** *understand* naturally connections?
+Instead of being *informed* I aim to sit in silence,
+Stopping confusion,
+Appreciating peacefully
+the freedom of thinking.
+
+I find beauty
+Read and aquire a taste.
+Old classics are a good start.
+**** *appreciate* beauty?
+Instead of being *entertained* I aim to entrust attention to beauty.
+I want to learn from it,
+build 
+maybe gain beauty.
+I find beauty in chains of thought
+and long measured arguments.
+
+I better shun attention addiction.
+**** *express* with refined love?
+You feed yourself
+as you starve social media.
+You imagine your own ideas and
+will find your kind and art.
+
+Anyways we do
+decentrally consider
+We discern
+calmly and fairly and measured,
+each any every one on its own.
+We connect and consolidate
+many strifes
+for enlightenment.
+
+
+**** *decide* on opportunity?
+All will balance expressions,
+will ask, select and listen.
+Crypto-currency can pay
+for good contributions.
+We must check radicle ethereum and lbry.
+
+Econonmy and value can naturally reset
+when we balance by rules
+of symbiosis:
+good contributions get well fed,
+and parasites?
+are starved and then excreted.
+
+**** *contribute* in gratitude?
+You can offer and share
+those expressions that feel most urgent.
+Value, enthusiasm, joy, pride.
+
+I better name the emotions
+of urgency and repression.
+I better shun self-censorship.
+I better keep for myself,
+I better contribute habitually.
+** You, hero of life, your next steps define your destiny.
+I suggest: write for your life!
+Archive for your life!
+Consolidate for your life!
+It's time for the collective consolidation of trust
+against this deception shit!
+
+How?
+Together!
+Simple and incluse.
+You do you, i do me, we do us - diverse we resist the centralization.
+With
+** Let's grow decentral connections into digital space!
+You can join this /Information Mycelium/,
+e.g. by contributing to these writings on
+information mycelium in the sense of a
+decentral formal data science framework.
+
+Just send a pull request
+to InformationMycelium.git remote link at github in the video description.
+: git clone git@github.com:gkappler/InformationMycelium.git
+
+Chances are you are already on the information mycelium
+with valuable text and data files in a git repository.
+Next:
+- load script for registering file parsers to julia =<:GiTree= types.
+- plug in available information from repositories in the mycelium.
+
+
+* Information Mycelium and =julia=
+julia packages for loading datasets:
+- DataDeps.jl
+* FERTIG The Information Mycelium
 CLOCK: [2021-01-29 Fr 00:22]--[2021-01-29 Fr 00:31] =>  0:09
 :END:
-We now must revolutionize social media.
 
+** TODO Let's disrupt social media.
 We simply must do it,
 and by simple means.
 
@@ -22,23 +258,117 @@ We need not to wait.
 
 We need no new platforms,
 we need to decentrally distribute.
-We have all we need to write our message.
+
+We have all the tools that we need
+to write our message.
 Why not start today?
 
-We need to learn new habits and some essential tools.
+
+** Sociocracy
+is a beautiful rule-set for organizing group collaboration,
+successful for decades,
+with solidly worked out materials.
+
+Ted J. Rau: Greater Reset Conference
+https://lbry.tv/@TheGreaterReset:4/Ted-Rau:9
+
+/Many voices one song. Shared Power with Sociocracy./
 
 
-This is the first streaming of my working with
+** 🏹 What do we aim for?
+Big question!
+Is there one answer?
+Many aim for understanding what works.
+Obviously.
+
+Understanding what works...
+*** ⚒ What "works"?
+
+**** All language is magic:
+we work the world with spells.
+With looks or tongue or writing.
+
+**** Black magic
+moves the living on illusions, with seduction and incantations of death
+and fear!!
+
+**** White magic
+is seeing through  into clarity,
+sees techniques and possibilities and
+builds worlds.
+Mathematics: Probability Theory and Programming!
+
+*** Analysis and suggestion must "work"!
+In the sense that they move information into clarity,
+as economical as possible,
+as distributed as possible,
+  - because there is lot's to do.
+As far into formal proofs (mathematical proofs)
+  - as possible.
+As far into runnable programs
+  - as possible.
+** You can learn new habits and powerful tools.
+This Screen Recording shows how I write in the mycelium.
+
+We also can use OrGitBots for Telegram chatting.
+
+All software I recommend is open source!
+- orgmode :: is the markup format you see me writing here.
+  
+- emacs :: the mother of all editors (MOAE, optional!!! powerful!!! Tough cookie to learn)
+  alternatively any text editor will do...
+  We want decentral independence from tools!!
+  (request tutorials? Windows Notepad++, Atom)
+  
+- git :: decentral versioning and collaborative text editing.
+  Specifically *magit* in emacs.
+
+This brief introductory tutorial is the
+first streaming of my working with
 1. information: notes, texts and
 2. collaborative decentral versioning.
 
-You might want to learn the software I use (recommended).
-All open source!
-- emacs :: the mother of all editors (MOAE, optional!!! powerful!!! Tough cookie though)
-  alternatively any text editor will do...
-  (request tutorials? Notepad++, Atom)
-- orgmode :: is the markup format you see me writing here.
-- git :: decentral versioning and collaborative text editing.
+*** GNU emacs
+The mother of all editors!
+by Richard Stallman
+
+⌨  all keyboard
+🖱 no mouse
+
+*No menues*: less confusion.
+It is important to 👀 focus when you write.
+No distractions any more.
+None!
+
+Key binding shortcuts
+=M-x=   : elisp commands (Alt-x, say "meta x")
+=C-h i= : Info on emacs
+
+
+Lots to learn.
+Steep learning curve.
+Very good investment.
+
+Learn from the info pages.
+They are well written.
+
+*** Control computers with language!
+If you know only Windows, you are used to control you computer with the mouse.
+Eben Moglen (great guy - involved in GPL3!!): mouse = "the *caveman* interface: you point and you grunt"
+I think Eben is dishonoring our caveman ancestors - they spoke a lot! - otherwise Eben is spot on!
+mouse = "the *infant* interface: you point and you grunt!"
+
+Calm down and relax. Controling with text is a journey you are invited to - but it is not a requirement.
+It is my way to work.
+It is a way for many people loving language, and formal languages.
+
+I will record my introductions and tutorials
+on the information mycelium using my software.
+I do me, you do you!!
+Maybe it will be inspiration to learn emacs,
+  - maybe not.
+Emacs is not a requirement!
+(but it allows these fancy things like collapsing headlines ;-))
 
 Before we look into the ideas of the mycelium, let me explain and show git a bit ;-)
 
